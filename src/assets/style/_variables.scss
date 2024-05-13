@@ -1,0 +1,37 @@
+:root {
+  // fonts
+  --ff: Montserrat, sans-serif;
+  --font-body: 400 1.4rem/1 var(--ff);
+  --font-h1: 700 3.2rem/1 var(--ff);
+  --font-h3: 600 1.6rem/1 var(--ff);
+
+  // colors
+  --color-dark: #333;
+  --color-white: #fff;
+  --color-grey: #76787D;
+  --color-border: #E0E0E0;
+  --color-shadow: #FDFDFD;
+  --color-red: #E31F24;
+
+  // etc
+  --conatainer: 1366px;
+  --grid-offset: 24px;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}

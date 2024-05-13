@@ -1,0 +1,40 @@
+@import "./reset";
+@import "./fonts";
+@import "./variables";
+@import "./common";
+
+*, html {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  line-height: 1.2;
+
+  @media (max-width: 1280px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 8px;
+  }
+}
+
+body {
+  font: var(--font-body);
+  color: var(--color-dark);
+  background-color: var(--color-white);
+}
+
+.app-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  width: 100%;
+  max-width: calc(var(--conatainer) + 100px);
+  margin: 0 auto;
+  padding: 0 50px;
+}
