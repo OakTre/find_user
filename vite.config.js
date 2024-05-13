@@ -6,7 +6,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => ({
-  base: mode === 'production' ? '/user/' : '/',
+  base: mode === 'production' ? '/find_user/' : '/',
   plugins: [
     VueDevTools(),
     vue(),
