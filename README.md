@@ -1,14 +1,12 @@
-# test
+# Find Users
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. [Главная](https://oaktre.github.io/find_user/)
 
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+Node.js v20.9.0, module architecture
 
 ## Project Setup
 
